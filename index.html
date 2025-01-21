@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<title>Quiz#1</title>
+	<style type="text/css">
+	body{
+	background-color: #94bbd1;
+	background-image: url(https://i.pinimg.com/736x/5e/e6/1f/5ee61ff3b34623d2bfc9b0db3bfe2342.jpg);
+	background-repeat: no-repeat;
+	background-size: 180%;
+	text-align: center;
+		}
+	button{
+	text-align: center;
+	border-radius: 25px;
+		}
+	kbd{
+	font-size: 35px;
+	text-align: center;
+	background-color: #d0edf5;
+	border-radius: 0px;
+	font-family: serif;
+	padding: 3px;
+	color: #3b6875;
+	}
+	h2{ 
+	font-size: 40px;
+	ext-align: center;
+	font-family: serif;
+	color: #3b6875;
+	 }
+	h1{
+	font-size: 60px;
+	text-align: center;
+	font-family: serif;
+	color: #3b6875;
+	font-weight: bolder;
+	 }
+	img{
+	height:150px;
+	width:150px ;
+	 }
+	p{
+	font-size: 15px;
+	font-family:serif;
+	color: #3b6875;
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+	
+</style>
+</head>
+
+	<body>
+	<br><br>
+	<a href="https://ph.pinterest.com/pin/140737557096645449/" target="_blank"><img class="rounded-circle mx-auto  d-block" src="https://i.pinimg.com/736x/23/33/7c/23337c6f7d948babc21d0986d14c265d.jpg" alt="math"></a>
+	<h1>If a=10 and b=2, compute for the following</h1>
+	<br>
+	<hr style="border: 7px solid #0f94bd;">
+	<br>
+
+	<h2 style="text-align: center;">Arithmetic Operator</h2>
+	<script>
+	var x, y, Exponent, Mod
+	x = 10; // the choosen value of x
+	y = 2; // the choosed value of y
+	Exponent = x ** y;
+	Mod = x % y; 
+</script>
+</center>
+	<p id="output"></p>
+	<button style="border-radius: 30px; background-color: #3b6875;border-color: transparent; font-family: serif; color: white;"type="button" class="btn btn-primary" onclick=" document.getElementById('output').innerHTML= '<kbd>' + 'If 10 ** 2?:' + '<kbd>'+Exponent + '<kbd>' + '<br>' + ' If 10 % 2?:' + '<kbd>'+ Mod + '<kbd>';">Answer</button>
+	<br><br>
+
+	<h2 style="text-align: center;">Comparison Operator</h2>
+	<script>
+	var x, y, GreaterThan, EqualThan
+	x = 10; // the choosen value of x
+	y = 2; // the choosen value of y
+	GreaterThan = x > y;
+	EqualThan = x == y; 
+</script>
+</center>
+	<p id="placement"></p>
+	<button style="border-radius: 30px; background-color: #3b6875; border-color: transparent; font-family: serif; color: white;" type="button" class="btn" onclick=" document.getElementById('placement').innerHTML= '<kbd>' + 'Is  10 > 2?:' + '<kbd>'+ GreaterThan + '<kbd>' + '<br>' + ' Is 10 == 2?:' + '<kbd>'+ EqualThan + '<kbd>';">Answer</button>
+	<br><br>
+
+	<h2 style="text-align: center;">Logical Operator</h2>
+	<script>
+	var x, y, And, Not
+	x = 10; // the choosen value of x
+	y = 2 ; // the choosen value of y 
+	And = ( x > y ) && ( x !== y );
+	Not = ( x < y ) || ( x == y );
+</script>
+	<p id="position"></p>
+	<button style="border-radius: 30px; background-color: #3b6875; border-color: transparent; font-family: serif; color:white;" type="button" class="btn" onclick=" document.getElementById('position').innerHTML= '<kbd>' + 'Is ( 10 > 2 ) && ( 10 !== 2 )?:  ' + '<kbd>'+ And + '<kbd>' + '<br>' + ' Is ( 10 < 2 ) || ( 10 == 2 )?:' + '<kbd>'+ Not + '<kbd>';">Answer</button>
+	<br><br><br>
+
+	<a href="index.html"><button class="btn btn-lg" style="border-radius: 30px; background-color: #3b6875; border-color: transparent; font-family: serif; color:white;">Refresh</button></a>
+
+	<br><br>
+	<hr style="border: 7px solid #0f94bd;">
+	<p>© Cabrillos, Martina</p>
+	<p>Background image from: rawpixel.com on pinterest.</p>
+	<p>APA citation for background image: L, J. (2023, October 23). Download premium image of Distorted light blue pool tile pattern background by Nunny about wallpaper, backgrounds, desktop wallpaper, abstract background,. Pinterest. Retrieved January 21, 2025, from https://ph.pinterest.com/pin/728598045991654102/</p>
+
+</body>
+</html>
